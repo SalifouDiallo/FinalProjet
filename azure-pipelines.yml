@@ -15,3 +15,15 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
+- task: AzureResourceManagerTemplateDeployment@3
+  inputs:
+    deploymentScope: 'Resource Group'
+    azureResourceManagerConnection: 'Abonnement Azure PAYG(1)(0673c009-6d00-4254-9178-35fed48c87be)'
+    subscriptionId: '0673c009-6d00-4254-9178-35fed48c87be'
+    action: 'Create Or Update Resource Group'
+    resourceGroupName: 'final'
+    location: 'Canada Central'
+    templateLocation: 'Linked artifact'
+    csmFile: '$(Build.SourcesDirectory)\StorageAccount\azuredeploy.json'
+    csmParametersFile: '$(Build.SourcesDirectory)\StorageAccount\azuredeploy.parameters.json'
+    deploymentMode: 'Validation'
