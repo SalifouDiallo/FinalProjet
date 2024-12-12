@@ -24,6 +24,6 @@ steps:
     resourceGroupName: 'final'
     location: 'Canada Central'
     templateLocation: 'Linked artifact'
-    csmFile: '$(Build.SourcesDirectory)\Projet final\StorageAccount\azuredeploy.json'
-    csmParametersFile: '$(Build.SourcesDirectory)\Projet final\StorageAccount\azuredeploy.parameters.json'
+    csmFile: '$(Build.SourcesDirectory)\Projet final\azuredeploy.json'
+    csmParametersFile: '$(Build.SourcesDirectory)\Projet final\azuredeploy.parameters.json'
     deploymentMode: 'Validation'
