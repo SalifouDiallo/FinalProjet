@@ -7,6 +7,10 @@ Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "Projet final", "Projet fina
 EndProject
 Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "StorageAccount", "StorageAccount\StorageAccount.deployproj", "{D62D182F-BF44-4AB3-8316-2276A35B6B1F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionApp1", "FunctionApp1\FunctionApp1.csproj", "{F4BF8B53-7202-4DED-986B-FA5E99740257}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionApp2", "FunctionApp2\FunctionApp2.csproj", "{12D85AF9-B4DE-4BDF-B789-04C11621B5F9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{D62D182F-BF44-4AB3-8316-2276A35B6B1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D62D182F-BF44-4AB3-8316-2276A35B6B1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D62D182F-BF44-4AB3-8316-2276A35B6B1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4BF8B53-7202-4DED-986B-FA5E99740257}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4BF8B53-7202-4DED-986B-FA5E99740257}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4BF8B53-7202-4DED-986B-FA5E99740257}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4BF8B53-7202-4DED-986B-FA5E99740257}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12D85AF9-B4DE-4BDF-B789-04C11621B5F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12D85AF9-B4DE-4BDF-B789-04C11621B5F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12D85AF9-B4DE-4BDF-B789-04C11621B5F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12D85AF9-B4DE-4BDF-B789-04C11621B5F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
